@@ -108,10 +108,32 @@ main {
     height: 50px;
     width: 320px;
     border: 2px solid #fff;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 20px;
+  box-sizing: border-box;
 
 }
+form {
+  margin-left:20px;
+}
+ form:focus-within {
+  height: 50px;
+    width: 320px;
+    border-radius:28px;
+  padding: 2px;
+  background-image: var(--line-gradient);
+     box-sizing: border-box;
+
+  
+}
+.search input:focus-within {
+  border: 0;
+  outline: none;
+  height: 46px;
+  width: 316px;
+  
+}
+
 
 .main-article {
     display: flex;
